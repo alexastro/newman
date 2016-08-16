@@ -15,4 +15,4 @@
  * @fileOverview This is the entry point to PostmanCollectionRunner modules.
  * The public structure of the module is defined here.
  */
-module.exports = require('./lib');
+module.exports = require('./lib/util');
