@@ -5,7 +5,13 @@
   "main": "index.js",
   "dependencies": {
     "overwrite": "1.0.3",
+    "aliasify": "2.0.0",
     "newman": "^3.0.1"
+  },
+  "aliasify": {
+    "aliases": {
+      "postman-runtime": "./lib/postman-runtime/index.js"
+    }
   },
   "devDependencies": {},
   "scripts": {
