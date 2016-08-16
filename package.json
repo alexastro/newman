@@ -5,12 +5,12 @@
   "main": "index.js",
   "dependencies": {
     "overwrite": "1.0.3",
-    "aliasify": "2.0.0",
+    "postman-runtime": "https://github.com/alexastro/postman-runtime/tarball/a3cb88399d0bdeeb13e2da4af70850d09faf33e8",
     "newman": "^3.0.1"
   },
   "aliasify": {
     "aliases": {
-      "postman-runtime": "./lib/postman-runtime/index.js"
+      "util": "./lib/postman-runtime/index.js"
     }
   },
   "devDependencies": {},
