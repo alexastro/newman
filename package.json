@@ -4,14 +4,8 @@
   "description": "Newman client to test REST API",
   "main": "index.js",
   "dependencies": {
-    "overwrite": "1.0.3",
     "postman-runtime": "https://github.com/alexastro/postman-runtime/tarball/8f1356c3a68e8bb721b0703ad6ced1964669a386",
     "newman": "^3.0.1"
-  },
-  "aliasify": {
-    "aliases": {
-      "util": "./lib/postman-runtime/index.js"
-    }
   },
   "devDependencies": {},
   "scripts": {
