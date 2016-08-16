@@ -4,6 +4,7 @@
   "description": "Newman client to test REST API",
   "main": "index.js",
   "dependencies": {
+    "overwrite": "1.0.3",
     "newman": "^3.0.1"
   },
   "devDependencies": {},
